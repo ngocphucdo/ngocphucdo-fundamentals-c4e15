@@ -1,0 +1,49 @@
+Q1: how to check variable's type?
+A1: by using "type" function, for example:
+>>> type ("one")
+
+<class 'str'>
+#String type
+
+>>> type (1)
+
+<class 'int'>
+>>> type (30.05)
+
+<class 'float'>
+#Float type
+
+Q2: 3 example for SyntaxError:
+
+ex1: the expression is not syntactically legal
+>>> 1 2
+  
+File "<stdin>", line 1
+
+    1 2
+      
+      ^
+
+SyntaxError: invalid syntax
+
+ex2: a variable contains an illegal name
+>>> 47hangdau = "docstore"
+
+File "<stdin>", line 1
+
+    47hangdau = "docstore"
+     
+      ^
+
+SyntaxError: invalid syntax
+
+ex3: a variable contains Python keywords
+>>> class = "47Hangdau"
+
+File "<stdin>", line 1
+
+class = "47Hangdau"
+        
+      ^
+
+SyntaxError: invalid syntax
