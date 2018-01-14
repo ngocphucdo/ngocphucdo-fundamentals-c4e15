@@ -1,0 +1,45 @@
+Q1: what is Boolean is?
+A1: A Boolean value is either true or false. It is named after the British mathematician, George
+Boole, who first formulated Boolean algebra — some rules for reasoning about and combining
+these values. This is the basis of all modern computer logic.
+In Python, the two Boolean values are True and False (the capitalization must be exactly as
+shown), and the Python type is bool.
+
+ex1: import random
+ 
+male = False
+male = bool(random.randint(0, 1))
+ 
+print (male)
+
+ex1.2: >>> 5 == (3 + 2) 
+True
+>>> 5 == 6
+False
+
+ex1.3: >>> age = 18
+>>> old_enough_to_get_driving_licence = age >= 17
+>>> print(old_enough_to_get_driving_licence)
+True
+>>> type(old_enough_to_get_driving_licence)
+
+Q2: what is flowchart?
+A2: A flowchart is a type of diagram that represents an algorithm, workflow or process, showing the
+steps as boxes of various kinds, and their order by connecting them with arrows. This diagrammatic 
+representation illustrates a solution model to a given problem.
+
+Q3: what is Nested conditionals?
+A3: One conditional can also be nested within another. For example, assume we have two integer variables, x and y.
+The following pattern of selection shows how we might decide how they are related to each other.
+
+Write a piece of code that uses nested conditionals:
+x = int(input("Nhap x = "))
+y = int(input("Nhap y = "))
+if x < y:
+    print("x nho hon y")
+else:
+    if x > y:
+        print("x lon hon y")
+    else:
+        print("x bang y")
+
